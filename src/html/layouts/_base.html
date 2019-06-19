@@ -1,0 +1,30 @@
+{% from "components/_picture.html" import picture %}
+{% from "components/_icon.html" import icon %}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>{{ title }}</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  {# {% include "components/_header.html" %} #}
+  
+  <main class="main">
+    {% block content %}{% endblock %}
+  </main>
+
+  {# {% include "components/_footer.html" %} #}
+
+  <script src="/js/vendor/jquery-3.4.1.min.js"></script>
+  <script src="/js/vendor/ofi.min.js"></script>
+  <script src="/js/vendor/slick.min.js"></script>
+  <script src="/js/scripts.js"></script>
+</body>
+</html>

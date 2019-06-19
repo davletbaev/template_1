@@ -1,0 +1,7 @@
+{% macro picture(alt, classname, path, ext) %}
+  <img
+    class="{{ classname }}"
+    src="{{ path }}@1x.{{ ext }}"
+    srcset="{{ path }}@2x.{{ ext }} 2x"
+    alt="{{ alt }}">
+{% endmacro %}
