@@ -1,15 +1,65 @@
 html,
 body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
 }
 
-* {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
+  font-family: $ff-default;
+  font-display: fallback;
+  outline: none;
 }
 
 body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  font-size: $fs-default;
+  line-height: $lh-default;
+  color: $primary;
+  background-color: $bg-light;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  color: inherit;
+}
+
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  box-shadow: 0 0 0 2px $focus;
+}
+
+svg {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+
+::placeholder { 
+  color: inherit;
+  opacity: 1; 
+  text-transform: uppercase;
+}
+
+:-ms-input-placeholder {
+  color: inherit;
+  opacity: 1; 
+  text-transform: uppercase;
+}
+
+::-ms-input-placeholder {
+  color: inherit;
+  opacity: 1; 
+  text-transform: uppercase;
 }

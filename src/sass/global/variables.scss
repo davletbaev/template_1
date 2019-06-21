@@ -1,0 +1,46 @@
+// main colors
+$primary: #282C45;
+$secondary: #5C617A;
+$white: #fff;
+$accent: #DE5052;
+$focus: rgba(#F04941, .3);
+
+// background-color
+$bg-white: $white;
+$bg-light: #E5E5E5;
+$bg-gray: #EDEDED;
+$bg-gray-darker: #E4E6ED;
+$bg-dark: $primary;
+
+// shadows
+$ts-default: 0px 0px 40px rgba(52, 58, 69, 0.45);
+$bs-default: 0px 1px 4px rgba(85, 85, 94, 0.16);
+
+// border-color
+$bc-default: #DDDDEB;
+$bc-dark: #A0A3B3;
+
+// font families
+$ff-default: Arial;
+
+// main font-sizes
+$fs-sm: 0.9rem;
+$fs-default: 1rem;
+$fs-lg: 1.2rem;
+$fs-xl: 1.5rem;
+
+// heading font-sizes
+$fs-h1: 3rem;
+$fs-h2: 2rem;
+
+// custom font-sizes
+$fs-nav: 1.1rem;
+$fs-category: 1.4rem;
+
+// main line-heights
+$lh-sm: 1.5;
+$lh-default: 1.75;
+$lh-lh: 2;
+
+// transitions
+$timing-default: cubic-bezier(0.39, 0.08, 0.16, 1.02);
