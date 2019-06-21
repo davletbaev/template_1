@@ -75,7 +75,7 @@ const buildImages = (mode) => (done) => {
           optimizationLevel: 2,
           paletteReduction: true
         }),
-      ], { verbose: true})
+      ])
     ] : []),
     gulp.dest(paths.dist.images)
   ], done)

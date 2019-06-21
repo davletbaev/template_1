@@ -32,7 +32,7 @@ const genericTask = (mode = 'development') => {
     // Watch - HTML
     gulp.watch(paths.watch.html)
     .on('all', gulp.series(
-      Object.assign(tasks.clean(paths.dist.html), { displayName: 'Clean HTML' }),
+      Object.assign(tasks.clean(`${paths.dist.html}/**/*.html`), { displayName: 'Clean HTML' }),
       Object.assign(tasks.views(mode), { displayName: `Watching HTML` }),
       Object.assign(bs.reload, { displayName: `Reloading browser` })
     ))

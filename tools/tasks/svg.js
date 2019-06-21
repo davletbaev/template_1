@@ -11,7 +11,7 @@ const buildSvg = (mode) => (done) => {
     gulp.src(paths.src.icons),
     imagemin([
       imageminSvgo(),
-    ], { verbose: true }),
+    ]),
     sprite({
       mode: {
         stack: {

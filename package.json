@@ -13,13 +13,13 @@
     "@babel/preset-env": "^7.4.4",
     "autoprefixer": "^9.5.1",
     "browser-sync": "^2.26.5",
+    "css-mqpacker": "^7.0.0",
     "cssnano": "^4.1.10",
     "del": "^4.1.1",
     "gulp": "^4.0.1",
     "gulp-babel": "^8.0.0",
     "gulp-changed": "^3.2.0",
     "gulp-clean-css": "^4.2.0",
-    "gulp-group-css-media-queries": "^1.2.2",
     "gulp-html-beautify": "^1.0.1",
     "gulp-imagemin": "^6.0.0",
     "gulp-nunjucks": "^4.0.0",
@@ -37,7 +37,9 @@
     "include-media": "^1.4.9",
     "postcss-flexbugs-fixes": "^4.1.0",
     "postcss-normalize": "^8.0.1",
+    "postcss-uncss": "^0.16.1",
     "pump": "^3.0.0",
-    "stylelint-config-recommended": "^2.2.0"
+    "sort-css-media-queries": "^1.4.3",
+    "uncss": "^0.17.0"
   }
 }

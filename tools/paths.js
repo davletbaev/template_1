@@ -5,7 +5,7 @@ const paths = {
     css: 'src/sass/styles.scss',
     js: 'src/js/**/*.js',
     images: 'src/img/**/*.{jpg,jpeg,png,webp}',
-    icons: 'src/img/icons/**/*.svg',
+    icons: ['src/img/icons/**/*.svg','src/img/logo/*.svg'],
     fonts: 'src/fonts/**/*.{woff,woff2}'
   },
   watch: {
@@ -13,7 +13,7 @@ const paths = {
     css: 'src/sass/**/*.scss',
     js: 'src/js/**/*.js',
     images: 'src/img/**/*.{jpg,jpeg,png,webp}',
-    icons: 'src/img/icons/**/*.svg',
+    icons: ['src/img/icons/**/*.svg','src/img/logo/*.svg'],
     fonts: 'src/fonts/**/*.{woff,woff2}'
   },
   dist: {
